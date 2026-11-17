@@ -1,0 +1,702 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-11-17",
+  "notes": "Planungsinventar, keine bestehenden Fachartikel. Veröffentlichungsstatus nur durch dokumentierte Prüfung anheben.",
+  "categories": [
+    {
+      "id": "wasser",
+      "title": "Wasser & Sanitär"
+    },
+    {
+      "id": "gesundheit",
+      "title": "Gesundheit & Hygiene"
+    },
+    {
+      "id": "ernaehrung",
+      "title": "Ernährung & Landwirtschaft"
+    },
+    {
+      "id": "waerme",
+      "title": "Wärme & Unterkunft"
+    },
+    {
+      "id": "handwerk",
+      "title": "Werkstoffe & Handwerk"
+    },
+    {
+      "id": "physik",
+      "title": "Physik & Messtechnik"
+    },
+    {
+      "id": "chemie",
+      "title": "Chemie"
+    },
+    {
+      "id": "energie",
+      "title": "Energie & Elektrik"
+    },
+    {
+      "id": "mechanik",
+      "title": "Mechanik & Maschinen"
+    },
+    {
+      "id": "kommunikation",
+      "title": "Kommunikation & Information"
+    },
+    {
+      "id": "bau",
+      "title": "Bau & Infrastruktur"
+    },
+    {
+      "id": "gesellschaft",
+      "title": "Gemeinschaft & Bildung"
+    }
+  ],
+  "topics": [
+    {
+      "id": "wasser.trinkwasser-risiken",
+      "title": "Trinkwasser: Gefahren erkennen und Grenzen von Aufbereitung",
+      "category": "wasser",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Wasser",
+        "Trinken",
+        "Verunreinigung",
+        "Hygiene"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "wasser.wasserlagerung",
+      "title": "Wasser sicher lagern und transportieren",
+      "category": "wasser",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Kanister",
+        "Behälter",
+        "Wassertank"
+      ],
+      "depends_on": [
+        "wasser.trinkwasser-risiken"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "wasser.haushaltswasser",
+      "title": "Wasser für Reinigung und Sanitärzwecke bereitstellen",
+      "category": "wasser",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Brauchwasser",
+        "Waschen"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "wasser.handwaschplatz",
+      "title": "Einfachen Handwaschplatz aus Kanister und Auffangschale bauen",
+      "category": "wasser",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Hahn",
+        "Seife",
+        "Handwaschen"
+      ],
+      "depends_on": [
+        "wasser.haushaltswasser"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "wasser.abwasser-hygiene",
+      "title": "Abwasser, Fäkalien und Infektionswege im Haushalt",
+      "category": "wasser",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "B",
+      "keywords": [
+        "Toilette",
+        "Latrine",
+        "Keime"
+      ],
+      "depends_on": [
+        "wasser.haushaltswasser"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "gesundheit.erste-hilfe",
+      "title": "Erste Hilfe und sichere Notfallbeurteilung",
+      "category": "gesundheit",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Notfall",
+        "Verletzung",
+        "Hilfe"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "gesundheit.wundhygiene",
+      "title": "Wundhygiene und Warnzeichen für Infektionen",
+      "category": "gesundheit",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Wunde",
+        "Infektion",
+        "Verbände"
+      ],
+      "depends_on": [
+        "gesundheit.erste-hilfe"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "gesundheit.infektionsschutz",
+      "title": "Infektionsschutz im Alltag ohne stabile Infrastruktur",
+      "category": "gesundheit",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Ansteckung",
+        "Waschen",
+        "Desinfektion"
+      ],
+      "depends_on": [
+        "wasser.handwaschplatz"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "ernaehrung.lebensmittelsicherheit",
+      "title": "Lebensmittelhygiene ohne zuverlässige Kühlung",
+      "category": "ernaehrung",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Kühlung",
+        "Lagerung",
+        "Verderb"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "ernaehrung.einkochen-grenzen",
+      "title": "Konservierung: Verfahren, Gefahren und sichere Grenzen",
+      "category": "ernaehrung",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "C",
+      "keywords": [
+        "Einmachen",
+        "Haltbarkeit",
+        "Botulismus"
+      ],
+      "depends_on": [
+        "ernaehrung.lebensmittelsicherheit"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "ernaehrung.gemueseanbau",
+      "title": "Gemüseanbau in kleinen Gärten",
+      "category": "ernaehrung",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "B",
+      "keywords": [
+        "Saatgut",
+        "Beete",
+        "Boden"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "waerme.waermeschutz",
+      "title": "Warmhalten und Wärmeschutz mit Haushaltsmitteln",
+      "category": "waerme",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Kälte",
+        "Decken",
+        "Dämmung"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "waerme.brandschutz",
+      "title": "Brandschutz und Kohlenmonoxid-Gefahren",
+      "category": "waerme",
+      "status": "planned",
+      "path": null,
+      "priority": "P0",
+      "feasibility": "A",
+      "keywords": [
+        "Ofen",
+        "Heizen",
+        "CO",
+        "Feuer"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "waerme.waermequellen",
+      "title": "Verfügbare Wärmequellen sicher beurteilen",
+      "category": "waerme",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "B",
+      "keywords": [
+        "Kochen",
+        "Heizung",
+        "Brennstoff"
+      ],
+      "depends_on": [
+        "waerme.brandschutz"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "handwerk.werkzeug-grundlagen",
+      "title": "Handwerkzeuge: Auswahl, Pflege und sichere Benutzung",
+      "category": "handwerk",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Säge",
+        "Hammer",
+        "Zange"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "handwerk.verbindungen",
+      "title": "Schrauben, Nägel, Klemmen und einfache Verbindungen",
+      "category": "handwerk",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Befestigung",
+        "Knoten"
+      ],
+      "depends_on": [
+        "handwerk.werkzeug-grundlagen"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "handwerk.material-pruefen",
+      "title": "Gebrauchte Materialien auf Eignung prüfen",
+      "category": "handwerk",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Recycling",
+        "Rost",
+        "Kunststoff"
+      ],
+      "depends_on": [
+        "handwerk.werkzeug-grundlagen"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "physik.messen-einheiten",
+      "title": "Messen und Einheiten ohne Speziallabor",
+      "category": "physik",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Maßband",
+        "Waage",
+        "SI"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "physik.hebel",
+      "title": "Hebel, Drehmoment und praktische Hilfsmittel",
+      "category": "physik",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Hebelgesetz",
+        "Kraft",
+        "Last"
+      ],
+      "depends_on": [
+        "physik.messen-einheiten"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "physik.waermeleitung",
+      "title": "Wärmeleitung und Wärmedämmung",
+      "category": "physik",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Temperatur",
+        "Leitfähigkeit"
+      ],
+      "depends_on": [
+        "physik.messen-einheiten"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "chemie.stoffe-trennen",
+      "title": "Trennen: Sieben, Filtern, Absetzen und Verdampfen",
+      "category": "chemie",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Filter",
+        "Sedimentation",
+        "Gemisch"
+      ],
+      "depends_on": [
+        "physik.messen-einheiten"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "chemie.saeuren-basen",
+      "title": "Säuren und Basen verstehen – Gefahren und Anwendungen",
+      "category": "chemie",
+      "status": "planned",
+      "path": null,
+      "priority": "P2",
+      "feasibility": "B",
+      "keywords": [
+        "pH",
+        "Reaktion",
+        "Lauge"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "chemie.seife",
+      "title": "Seife, Tenside und Reinigung verstehen",
+      "category": "chemie",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Seife",
+        "Waschen",
+        "Fett"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "energie.strom-grundlagen",
+      "title": "Spannung, Stromstärke, Widerstand und Messung",
+      "category": "energie",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "B",
+      "keywords": [
+        "Volt",
+        "Ampere",
+        "Ohm"
+      ],
+      "depends_on": [
+        "physik.messen-einheiten"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "energie.batterien-nutzen",
+      "title": "Vorhandene Batterien und Akkus sicher nutzen",
+      "category": "energie",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "B",
+      "keywords": [
+        "Batterie",
+        "Akku",
+        "Kleinspannung"
+      ],
+      "depends_on": [
+        "energie.strom-grundlagen"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "energie.kleinspannungslicht",
+      "title": "Einfaches Licht mit vorhandenen Kleinspannungsbauteilen",
+      "category": "energie",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "B",
+      "keywords": [
+        "LED",
+        "Beleuchtung"
+      ],
+      "depends_on": [
+        "energie.strom-grundlagen",
+        "energie.batterien-nutzen"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "mechanik.einfache-pumpen",
+      "title": "Einfachste Pumpenprinzipien und Wassertransport",
+      "category": "mechanik",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "B",
+      "keywords": [
+        "Handpumpe",
+        "Siphon",
+        "Ventil"
+      ],
+      "depends_on": [
+        "physik.messen-einheiten"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "mechanik.uebersetzungen",
+      "title": "Rollen, Flaschenzug und Übersetzungen",
+      "category": "mechanik",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "B",
+      "keywords": [
+        "Seil",
+        "Flaschenzug",
+        "Kraft"
+      ],
+      "depends_on": [
+        "physik.hebel"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "kommunikation.information-archivieren",
+      "title": "Papier, Kopien und robuste Wissensarchive",
+      "category": "kommunikation",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Notizen",
+        "Druck",
+        "Archiv"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "kommunikation.signale",
+      "title": "Einfache Signale und Verständigung ohne Netz",
+      "category": "kommunikation",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Zeichen",
+        "Lichtsignale"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "bau.kleine-reparaturen",
+      "title": "Undichtigkeiten und kleinere Hausschäden beurteilen",
+      "category": "bau",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "B",
+      "keywords": [
+        "Dichtung",
+        "Rohr",
+        "Leck"
+      ],
+      "depends_on": [
+        "handwerk.werkzeug-grundlagen"
+      ],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "bau.lueftung",
+      "title": "Lüftung, Feuchtigkeit und Schimmel vermeiden",
+      "category": "bau",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Luft",
+        "Schimmel",
+        "Feuchte"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "gesellschaft.gemeinschaftsplan",
+      "title": "Nachbarschaftliche Aufgaben und Ressourcen organisieren",
+      "category": "gesellschaft",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Kommunikation",
+        "Versorgung",
+        "Nachbarschaft"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    },
+    {
+      "id": "gesellschaft.wissen-vermitteln",
+      "title": "Wissen dokumentieren, prüfen und an andere weitergeben",
+      "category": "gesellschaft",
+      "status": "planned",
+      "path": null,
+      "priority": "P1",
+      "feasibility": "A",
+      "keywords": [
+        "Unterricht",
+        "Dokumentation"
+      ],
+      "depends_on": [],
+      "related": [],
+      "visuals": [],
+      "review_notes": "Noch kein Artikel angelegt; Quellen und Umsetzung nicht geprüft."
+    }
+  ]
+}
